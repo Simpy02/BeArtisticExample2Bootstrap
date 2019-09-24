@@ -13,7 +13,7 @@
 .navbar-brand img{
 
   height:50px;
-  padding-left: 20px;
+  padding-left: 50px;
 }
 
 .navbar-nav li{
@@ -28,6 +28,7 @@ text-align: left;
 }
 #nav-bar ul li a:hover{
   color:#007bff!important;
+  font-weight: bold;
 }
 
 .navbar{
@@ -256,4 +257,13 @@ h1::after{
   padding: 100px;
   font-family: sans-serif;
   font-size: 20px;
+}
+
+
+@media screen and (max-width:768px) {
+
+  @-ms-viewport {
+   width: 768px;
+   height: 1024px;
+ }
 }
